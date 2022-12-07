@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75142BAE2927613D0032FAF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75142BAD2927613D0032FAF9 /* AppDelegate.swift */; };
+		75142BB02927613D0032FAF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75142BAF2927613D0032FAF9 /* SceneDelegate.swift */; };
+		75142BB22927613D0032FAF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75142BB12927613D0032FAF9 /* ViewController.swift */; };
+		75142BB52927613D0032FAF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75142BB32927613D0032FAF9 /* Main.storyboard */; };
+		75142BB82927613D0032FAF9 /* iOS_Rajkot.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75142BB62927613D0032FAF9 /* iOS_Rajkot.xcdatamodeld */; };
+		75142BBA292761400032FAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75142BB9292761400032FAF9 /* Assets.xcassets */; };
+		75142BBD292761400032FAF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75142BBB292761400032FAF9 /* LaunchScreen.storyboard */; };
+		75142BC82927628F0032FAF9 /* item_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 75142BC72927628F0032FAF9 /* item_data.json */; };
+		75142BCB2927638A0032FAF9 /* Model_Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75142BCA2927638A0032FAF9 /* Model_Item.swift */; };
+		75142BCF2927688A0032FAF9 /* cellSelectFlat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75142BCE2927688A0032FAF9 /* cellSelectFlat.swift */; };
+		75142BD6292776580032FAF9 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75142BD1292776580032FAF9 /* Constant.swift */; };
+		75142BD7292776580032FAF9 /* UIStoryBorad+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75142BD3292776580032FAF9 /* UIStoryBorad+Ext.swift */; };
+		75142BD8292776580032FAF9 /* UIController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75142BD4292776580032FAF9 /* UIController+Ext.swift */; };
+		75142BD9292776580032FAF9 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75142BD5292776580032FAF9 /* Extention.swift */; };
+		D08144B292F09132E71607DB /* Pods_iOS_Rajkot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2F443851640A271AAA0DC0E /* Pods_iOS_Rajkot.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		31580D3F1982B8C27D3160B6 /* Pods-iOS_Rajkot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Rajkot.release.xcconfig"; path = "Target Support Files/Pods-iOS_Rajkot/Pods-iOS_Rajkot.release.xcconfig"; sourceTree = "<group>"; };
+		75142BAA2927613D0032FAF9 /* iOS_Rajkot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Rajkot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75142BAD2927613D0032FAF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75142BAF2927613D0032FAF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		75142BB12927613D0032FAF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75142BB42927613D0032FAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75142BB72927613D0032FAF9 /* iOS_Rajkot.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOS_Rajkot.xcdatamodel; sourceTree = "<group>"; };
+		75142BB9292761400032FAF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75142BBC292761400032FAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75142BBE292761400032FAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75142BC72927628F0032FAF9 /* item_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = item_data.json; sourceTree = "<group>"; };
+		75142BCA2927638A0032FAF9 /* Model_Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model_Item.swift; sourceTree = "<group>"; };
+		75142BCE2927688A0032FAF9 /* cellSelectFlat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellSelectFlat.swift; sourceTree = "<group>"; };
+		75142BD1292776580032FAF9 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		75142BD3292776580032FAF9 /* UIStoryBorad+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryBorad+Ext.swift"; sourceTree = "<group>"; };
+		75142BD4292776580032FAF9 /* UIController+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIController+Ext.swift"; sourceTree = "<group>"; };
+		75142BD5292776580032FAF9 /* Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		8A05456E640B38EBA0125F08 /* Pods-iOS_Rajkot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Rajkot.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Rajkot/Pods-iOS_Rajkot.debug.xcconfig"; sourceTree = "<group>"; };
+		C2F443851640A271AAA0DC0E /* Pods_iOS_Rajkot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Rajkot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75142BA72927613D0032FAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D08144B292F09132E71607DB /* Pods_iOS_Rajkot.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75142BA12927613D0032FAF9 = {
+			isa = PBXGroup;
+			children = (
+				75142BAC2927613D0032FAF9 /* iOS_Rajkot */,
+				75142BAB2927613D0032FAF9 /* Products */,
+				9892BB00616CDFBCCF727B89 /* Pods */,
+				795014D4B9A21BC38F950C0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75142BAB2927613D0032FAF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75142BAA2927613D0032FAF9 /* iOS_Rajkot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75142BAC2927613D0032FAF9 /* iOS_Rajkot */ = {
+			isa = PBXGroup;
+			children = (
+				75142BBE292761400032FAF9 /* Info.plist */,
+				75142BB62927613D0032FAF9 /* iOS_Rajkot.xcdatamodeld */,
+				75142BAD2927613D0032FAF9 /* AppDelegate.swift */,
+				75142BAF2927613D0032FAF9 /* SceneDelegate.swift */,
+				75142BD0292776580032FAF9 /* Utility */,
+				75142BC9292763780032FAF9 /* Model */,
+				75142BC5292761580032FAF9 /* View */,
+				75142BC42927614D0032FAF9 /* Controller */,
+				75142BC6292761640032FAF9 /* Resources */,
+			);
+			path = iOS_Rajkot;
+			sourceTree = "<group>";
+		};
+		75142BC42927614D0032FAF9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75142BCC292768760032FAF9 /* Cell */,
+				75142BB12927613D0032FAF9 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		75142BC5292761580032FAF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75142BB32927613D0032FAF9 /* Main.storyboard */,
+				75142BBB292761400032FAF9 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		75142BC6292761640032FAF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75142BC72927628F0032FAF9 /* item_data.json */,
+				75142BB9292761400032FAF9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		75142BC9292763780032FAF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75142BCA2927638A0032FAF9 /* Model_Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75142BCC292768760032FAF9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				75142BCE2927688A0032FAF9 /* cellSelectFlat.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		75142BD0292776580032FAF9 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				75142BD1292776580032FAF9 /* Constant.swift */,
+				75142BD2292776580032FAF9 /* Extention */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		75142BD2292776580032FAF9 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				75142BD3292776580032FAF9 /* UIStoryBorad+Ext.swift */,
+				75142BD4292776580032FAF9 /* UIController+Ext.swift */,
+				75142BD5292776580032FAF9 /* Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		795014D4B9A21BC38F950C0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2F443851640A271AAA0DC0E /* Pods_iOS_Rajkot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9892BB00616CDFBCCF727B89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A05456E640B38EBA0125F08 /* Pods-iOS_Rajkot.debug.xcconfig */,
+				31580D3F1982B8C27D3160B6 /* Pods-iOS_Rajkot.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75142BA92927613D0032FAF9 /* iOS_Rajkot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75142BC1292761400032FAF9 /* Build configuration list for PBXNativeTarget "iOS_Rajkot" */;
+			buildPhases = (
+				96E32E86A0E1A9F204B04615 /* [CP] Check Pods Manifest.lock */,
+				75142BA62927613D0032FAF9 /* Sources */,
+				75142BA72927613D0032FAF9 /* Frameworks */,
+				75142BA82927613D0032FAF9 /* Resources */,
+				51E75B6B4228EF202CAD3985 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_Rajkot;
+			productName = iOS_Rajkot;
+			productReference = 75142BAA2927613D0032FAF9 /* iOS_Rajkot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75142BA22927613D0032FAF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					75142BA92927613D0032FAF9 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 75142BA52927613D0032FAF9 /* Build configuration list for PBXProject "iOS_Rajkot" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75142BA12927613D0032FAF9;
+			productRefGroup = 75142BAB2927613D0032FAF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75142BA92927613D0032FAF9 /* iOS_Rajkot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75142BA82927613D0032FAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75142BBD292761400032FAF9 /* LaunchScreen.storyboard in Resources */,
+				75142BBA292761400032FAF9 /* Assets.xcassets in Resources */,
+				75142BC82927628F0032FAF9 /* item_data.json in Resources */,
+				75142BB52927613D0032FAF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		51E75B6B4228EF202CAD3985 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Rajkot/Pods-iOS_Rajkot-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS_Rajkot/Pods-iOS_Rajkot-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_Rajkot/Pods-iOS_Rajkot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96E32E86A0E1A9F204B04615 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS_Rajkot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75142BA62927613D0032FAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75142BD6292776580032FAF9 /* Constant.swift in Sources */,
+				75142BCF2927688A0032FAF9 /* cellSelectFlat.swift in Sources */,
+				75142BB82927613D0032FAF9 /* iOS_Rajkot.xcdatamodeld in Sources */,
+				75142BB22927613D0032FAF9 /* ViewController.swift in Sources */,
+				75142BD9292776580032FAF9 /* Extention.swift in Sources */,
+				75142BD7292776580032FAF9 /* UIStoryBorad+Ext.swift in Sources */,
+				75142BCB2927638A0032FAF9 /* Model_Item.swift in Sources */,
+				75142BAE2927613D0032FAF9 /* AppDelegate.swift in Sources */,
+				75142BD8292776580032FAF9 /* UIController+Ext.swift in Sources */,
+				75142BB02927613D0032FAF9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75142BB32927613D0032FAF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75142BB42927613D0032FAF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75142BBB292761400032FAF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75142BBC292761400032FAF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75142BBF292761400032FAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75142BC0292761400032FAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75142BC2292761400032FAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A05456E640B38EBA0125F08 /* Pods-iOS_Rajkot.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS_Rajkot/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.InterviewTask.iOS-Rajkot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75142BC3292761400032FAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31580D3F1982B8C27D3160B6 /* Pods-iOS_Rajkot.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOS_Rajkot/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.InterviewTask.iOS-Rajkot";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75142BA52927613D0032FAF9 /* Build configuration list for PBXProject "iOS_Rajkot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75142BBF292761400032FAF9 /* Debug */,
+				75142BC0292761400032FAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75142BC1292761400032FAF9 /* Build configuration list for PBXNativeTarget "iOS_Rajkot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75142BC2292761400032FAF9 /* Debug */,
+				75142BC3292761400032FAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		75142BB62927613D0032FAF9 /* iOS_Rajkot.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				75142BB72927613D0032FAF9 /* iOS_Rajkot.xcdatamodel */,
+			);
+			currentVersion = 75142BB72927613D0032FAF9 /* iOS_Rajkot.xcdatamodel */;
+			path = iOS_Rajkot.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 75142BA22927613D0032FAF9 /* Project object */;
+}

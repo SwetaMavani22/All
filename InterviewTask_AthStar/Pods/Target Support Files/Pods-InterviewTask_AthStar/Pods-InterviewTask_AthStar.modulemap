@@ -1,0 +1,6 @@
+framework module Pods_InterviewTask_AthStar {
+  umbrella header "Pods-InterviewTask_AthStar-umbrella.h"
+
+  export *
+  module * { export * }
+}
